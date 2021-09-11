@@ -43,3 +43,9 @@ An identity token represents the outcome of an authentication process. It contai
 An access token allows access to an API resource. Clients request access tokens and forward them to the API. Access tokens contain information about the client and the user (if present). APIs use that information to authorize access to their data.
 
 
+- It is recommended to use Implicit flow for client side rendered webapps and authorisation code flow for native mobile apps.
+
+3 login flows for Auth0 - Universal(lock widget hosted by auth0), Embedded(lock widget embeded) and CustomUI
+
+Allowed callback url had to be updated while creating a new application in Auth0
+
